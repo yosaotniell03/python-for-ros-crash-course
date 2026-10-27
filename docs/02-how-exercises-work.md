@@ -335,6 +335,7 @@ E       assert 'FULL' == 'OK'
 | `스크립트가 10초 안에 끝나지 않았습니다.` / `끝나지 않는 반복문이나 필요 없는 input()이 있는지 확인하세요.` | 끝나지 않는 반복문이나 필요 없는 `input()`이 있습니다 | VS Code 편집기에서 해당 연습 문제 파일을 열고 `while` 조건과 `input()` 호출 개수를 확인하세요 |
 | 함수 테스트가 끝나지 않고 아무것도 나오지 않습니다 | 함수 안의 반복문이 끝나지 않습니다. 함수 테스트에는 시간 제한이 없습니다 | VS Code 터미널에서 **Ctrl + C**를 누르세요. 마지막 줄의 파일 이름과 줄 번호(예: `w1d4_loops.py:48: KeyboardInterrupt`)가 멈춘 반복문입니다. 그 반복문 안에서 조건에 쓰는 변수가 바뀌도록 고치세요 |
 | `sum_to must add the numbers in a for or while loop` | 공식이나 `sum()`으로 계산했습니다 | 4일차 수업 2절처럼 `for` 문 안에서 합계에 숫자를 하나씩 더하세요 |
+| `closest must find the smallest value with a for or while loop` | `min()`, `sorted()`, `.sort()`로 찾았습니다 | 2주차 1일차 수업 5절처럼 첫 번째 요소로 시작하고, 반복문 안에서 더 작은 값을 만나면 바꾸세요 |
 | `ImportError: cannot import name ...` | 함수 이름을 바꾸거나 함수를 지웠습니다 | VS Code 편집기에서 오류 메시지에 나온 연습 문제 파일의 함수 이름을 원래대로 되돌리세요 |
 | `ModuleNotFoundError: No module named 'playground'` | 코드를 입력할 때 VS Code가 `from playground import …` 줄을 연습 문제 파일 맨 위에 저절로 추가했습니다 | VS Code 편집기에서 해당 연습 문제 파일 맨 위의 `from playground import …` 줄을 지우고 **Ctrl + S**로 저장하세요. 연습 문제 파일에는 `import` 줄이 필요 없습니다 |
 | `SyntaxError` / `IndentationError` | `:` `)` `"`가 빠졌거나 공백이 잘못되었습니다 | VS Code 편집기에서 오류 메시지에 나온 연습 문제 파일을 열고 표시된 줄 번호로 이동하세요 |

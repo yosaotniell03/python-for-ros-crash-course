@@ -26,10 +26,10 @@
 
 | 주차 | 날짜(2026년) | 주제 | ROS에서 필요한 이유 | 주간 과제(체크포인트) |
 |---|---|---|---|---|
-| **1** | 10월 19일 – 10월 23일 | 터미널과 파이썬 기초 | 터미널에서 ROS를 제어합니다 | 로봇 콘솔 도구(단위 변환기 + 숫자 맞히기 게임) |
-| **2** | 10월 26일 – 10월 30일 | 데이터와 함수 | ROS 메시지는 구조가 있는 데이터입니다 | 센서 데이터 분석기 |
-| **3** | 11월 2일 – 11월 6일 | 코드 정리: 클래스, 모듈, 오류 | 모든 ROS 노드는 클래스입니다 | 로봇 클래스 계층 |
-| **4** | 11월 9일 – 11월 13일 | ROS 방식의 코드: 콜백, 타이머, 발행/구독 | 실제 ROS 2에서도 같은 개념을 사용합니다 | **mini-ROS**: 작은 ROS 직접 만들기 |
+| **1** | 10월 19일 – 10월 26일 | 터미널과 파이썬 기초 | 터미널에서 ROS를 제어합니다 | 로봇 콘솔 도구(단위 변환기 + 숫자 맞히기 게임) |
+| **2** | 10월 27일 – 11월 2일 | 데이터와 함수 | ROS 메시지는 구조가 있는 데이터입니다 | 센서 데이터 분석기 |
+| **3** | 11월 3일 – 11월 9일 | 코드 정리: 클래스, 모듈, 오류 | 모든 ROS 노드는 클래스입니다 | 로봇 클래스 계층 |
+| **4** | 11월 10일 – 11월 16일 | ROS 방식의 코드: 콜백, 타이머, 발행/구독 | 실제 ROS 2에서도 같은 개념을 사용합니다 | **mini-ROS**: 작은 ROS 직접 만들기 |
 
 2–4주차 자료는 학습할 때가 되면 이 저장소에 올라옵니다. [새 수업 받기](docs/01-how-to-study.md#새-수업-받기)를 참고하세요.
 
@@ -42,6 +42,12 @@
 | 3 | [조건에 따라 판단하기: 함수와 if 문](lessons/week1/day3-functions-and-decisions.md) | [`exercises/week1/w1d3_conditions.py`](exercises/week1/w1d3_conditions.py) |
 | 4 | [반복하기: for 문과 while 문](lessons/week1/day4-loops.md) | [`exercises/week1/w1d4_loops.py`](exercises/week1/w1d4_loops.py) |
 | 5 | [문자열 다루기 + 주간 과제](lessons/week1/day5-strings-and-checkpoint.md) | [`exercises/week1/w1d5_strings.py`](exercises/week1/w1d5_strings.py), [주간 과제](checkpoints/week1/README.md) |
+
+### 2주차
+
+| 일차 | 수업 | 연습 문제 |
+|---|---|---|
+| 1 | [리스트, 값 여러 개를 한 번에 다루기](lessons/week2/day1-lists.md) | [`exercises/week2/w2d1_lists.py`](exercises/week2/w2d1_lists.py) |
 
 ---
 

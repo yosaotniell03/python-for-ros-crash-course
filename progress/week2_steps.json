@@ -1,0 +1,122 @@
+{
+  "week": 2,
+  "title": "2주차",
+  "sections": [
+    {
+      "key": "w2d1",
+      "title": "1일차: 리스트"
+    }
+  ],
+  "steps": [
+    {
+      "id": "w2d1_read",
+      "section": "w2d1",
+      "kind": "manual",
+      "label": "수업 읽기(연습 문제 절 앞까지), 모든 예제 직접 입력",
+      "ask": "수업을 연습 문제 절 앞까지 읽고 모든 예제를 직접 입력해서 실행했습니까?",
+      "open": [
+        "lessons/week2/day1-lists.md"
+      ]
+    },
+    {
+      "id": "w2d1_try",
+      "section": "w2d1",
+      "kind": "manual",
+      "label": "직접 해 보기: 리스트 바꾸기",
+      "ask": "수업의 \"직접 해 보기\"를 모두 마쳤습니까?",
+      "open": [
+        "lessons/week2/day1-lists.md"
+      ]
+    },
+    {
+      "id": "w2d1_average",
+      "section": "w2d1",
+      "kind": "test",
+      "label": "함수 average",
+      "paths": [
+        "exercises/week2/tests/test_w2d1.py"
+      ],
+      "k": "average",
+      "cmd": "pytest exercises/week2/tests/test_w2d1.py -k average",
+      "open": [
+        "lessons/week2/day1-lists.md (연습 문제 1/3)",
+        "exercises/week2/w2d1_lists.py"
+      ]
+    },
+    {
+      "id": "w2d1_below",
+      "section": "w2d1",
+      "kind": "test",
+      "label": "함수 count_below",
+      "paths": [
+        "exercises/week2/tests/test_w2d1.py"
+      ],
+      "k": "count_below",
+      "cmd": "pytest exercises/week2/tests/test_w2d1.py -k count_below",
+      "open": [
+        "lessons/week2/day1-lists.md (연습 문제 2/3)",
+        "exercises/week2/w2d1_lists.py"
+      ]
+    },
+    {
+      "id": "w2d1_closest",
+      "section": "w2d1",
+      "kind": "test",
+      "label": "함수 closest(먼저 종이에 표를 그리세요)",
+      "paths": [
+        "exercises/week2/tests/test_w2d1.py"
+      ],
+      "k": "closest",
+      "cmd": "pytest exercises/week2/tests/test_w2d1.py -k closest",
+      "open": [
+        "lessons/week2/day1-lists.md (연습 문제 3/3)",
+        "exercises/week2/w2d1_lists.py"
+      ]
+    },
+    {
+      "id": "w2d1_all",
+      "section": "w2d1",
+      "kind": "test",
+      "label": "1일차 테스트 전체 통과(12 passed)",
+      "paths": [
+        "exercises/week2/tests/test_w2d1.py"
+      ],
+      "k": "",
+      "cmd": "pytest exercises/week2/tests/test_w2d1.py",
+      "open": [
+        "lessons/week2/day1-lists.md (마지막으로)"
+      ],
+      "ask": "VS Code 터미널에서 pytest exercises/week2/tests/test_w2d1.py를 직접 실행해서 12 passed를 확인했습니까?"
+    },
+    {
+      "id": "w2d1_explain",
+      "section": "w2d1",
+      "kind": "manual",
+      "label": "readings[-1]이 무엇인지, 리스트와 문자열의 차이를 설명할 수 있음",
+      "ask": "readings[-1]이 무엇인지, 리스트는 바꿀 수 있지만 문자열은 바꿀 수 없다는 것이 무슨 뜻인지 설명할 수 있습니까?"
+    },
+    {
+      "id": "w2d1_log",
+      "section": "w2d1",
+      "kind": "log",
+      "label": "오늘 실습 일지 작성",
+      "open": [
+        "logs/{today}.md"
+      ]
+    },
+    {
+      "id": "w2d1_mentor",
+      "section": "w2d1",
+      "kind": "manual",
+      "label": "멘토 점검",
+      "ask": "오늘 멘토 점검을 마쳤습니까?"
+    },
+    {
+      "id": "w2d1_push",
+      "section": "w2d1",
+      "kind": "git",
+      "label": "커밋과 푸시",
+      "note": "git add .  →  git commit -m \"Week 2 Day 1\"  →  git push"
+    }
+  ]
+}
